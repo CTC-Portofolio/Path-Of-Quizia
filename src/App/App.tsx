@@ -1,3 +1,9 @@
+import { QuestionCarrousel } from "./Questions/QuestionCarrousel";
+
 export function App() {
-  return <>App Works</>
+  return (
+    <div className="tw-container tw-m-auto">
+      <QuestionCarrousel />
+    </div>
+  );
 }

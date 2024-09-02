@@ -1,4 +1,4 @@
-import { Question } from "./types";
+import { QuestionData } from "./types";
 
 export const Questions = [
   {
@@ -733,4 +733,4 @@ export const Questions = [
     ],
     tags: ["crafting", "fossils"],
   },
-] as const satisfies Question[];
+] as const satisfies QuestionData[];

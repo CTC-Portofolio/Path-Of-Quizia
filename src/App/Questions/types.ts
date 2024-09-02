@@ -1,4 +1,4 @@
-export type Question = {
+export type QuestionData = {
   statement: string;
   type: "single" | "multiple";
   answers: Answer[];

@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../node_modules/swiper/swiper-bundle.css';
+@import "../node_modules/swiper/swiper.min.css";
+@import "../node_modules/swiper/modules/a11y.css";
+@import "../node_modules/swiper/modules/navigation.css";
+@import "../node_modules/swiper/modules/virtual.css";
+@import "../node_modules/swiper/modules/pagination.css";
